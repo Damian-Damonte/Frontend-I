@@ -1,0 +1,83 @@
+* { box-sizing: border-box;}
+body {
+    background-color: #dddbdb;
+}
+header{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    position: relative;
+}
+nav {
+    color: white;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    position: absolute; right: 50px;
+}
+.nav1 {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.section1 {
+    display: flex;
+    justify-content: space-around;
+}
+.div1{
+    display: flex;
+    position: relative;
+    width: 48%;
+}
+.imgpizza {
+    border-radius: 20px;
+    width: 100%;
+    
+}
+.texto {
+    position: absolute; top: -12px; left: 30px;
+    font-size: 35px;
+    color: red;
+    font-weight: bold;
+}
+.span {
+    color: white
+}
+.div2 {
+    position: relative;
+    justify-content: center;
+    display: flex;
+    width: 48%;
+    background-color: white;
+    border-radius: 20px;
+
+}
+.podio {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    color: red;
+}
+.top {
+    position: absolute; top: 25%; left: 15%;
+    font-size: 35px;
+    font-weight: bold;
+}
+.lista {
+    position: absolute; top: 35% ; left: 8%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.elementos {
+    margin: 15px;
+}
+.arbolito {
+    position: absolute; top: 50%; left: 60%;
+    height: 200px;
+    width: 150px;
+}
+section {
+    margin-top: 50px;
+}
